@@ -18,7 +18,10 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/27692159042?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
+    window.open(
+      "https://wa.me/27692159042?text=Hi%2C%20I%20need%20appliance%20repair%20services",
+      "_blank",
+    );
   };
 
   const handleCall = () => {
@@ -26,26 +29,33 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-primary shadow-lg">
+    <header className="sticky top-0 z-50 w-full bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="flex items-center gap-2" data-testid="link-home-logo">
-            <img 
-              src={mainLogo} 
-              alt="Pretoria Fridge Repairs Logo" 
+          <Link
+            href="/"
+            className="flex items-center gap-2"
+            data-testid="link-home-logo"
+          >
+            <img
+              src={mainLogo}
+              alt="Pretoria Fridge Repairs Logo"
               className="h-10 md:h-14 w-auto"
             />
           </Link>
 
-          <nav className="hidden lg:flex items-center gap-1" data-testid="nav-desktop">
+          <nav
+            className="hidden lg:flex items-center gap-1"
+            data-testid="nav-desktop"
+          >
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 className={`px-4 py-2 text-sm font-medium rounded-md transition-colors ${
                   location === link.href
-                    ? "bg-white/20 text-white"
-                    : "text-white/90 hover:bg-white/10 hover:text-white"
+                    ? "bg-white/20 text-primary"
+                    : "text-primary/90 hover:bg-primary/10 hover:text-primary"
                 }`}
                 data-testid={`link-nav-${link.label.toLowerCase()}`}
               >
@@ -66,7 +76,7 @@ export function Header() {
             <Button
               onClick={handleCall}
               variant="outline"
-              className="bg-white/10 border-white/30 text-white hover:bg-white/20 gap-2"
+              className="bg-white/10 border-white/30 text-primary hover:bg-white/20 gap-2"
               data-testid="button-header-call"
             >
               <Phone className="h-4 w-4" />
@@ -75,18 +85,25 @@ export function Header() {
           </div>
 
           <button
-            className="lg:hidden p-2 text-white hover:bg-white/10 rounded-md"
+            className="lg:hidden p-2 text-primary hover:bg-white/10 rounded-md"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
             data-testid="button-mobile-menu"
           >
-            {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {mobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
           </button>
         </div>
       </div>
 
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-primary border-t border-white/10" data-testid="nav-mobile">
+        <div
+          className="lg:hidden bg-white border-t border-white/10"
+          data-testid="nav-mobile"
+        >
           <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-2">
             {navLinks.map((link) => (
               <Link
@@ -95,8 +112,8 @@ export function Header() {
                 onClick={() => setMobileMenuOpen(false)}
                 className={`px-4 py-3 text-base font-medium rounded-md transition-colors ${
                   location === link.href
-                    ? "bg-white/20 text-white"
-                    : "text-white/90 hover:bg-white/10 hover:text-white"
+                    ? "bg-white/20 text-primary"
+                    : "text-primary/90 hover:bg-primary/10 hover:text-primary"
                 }`}
                 data-testid={`link-mobile-${link.label.toLowerCase()}`}
               >
@@ -115,7 +132,7 @@ export function Header() {
               <Button
                 onClick={handleCall}
                 variant="outline"
-                className="bg-white/10 border-white/30 text-white hover:bg-white/20 gap-2 w-full justify-center"
+                className="bg-white/10 border-white/30 text-primary hover:bg-white/20 gap-2 w-full justify-center"
                 data-testid="button-mobile-call"
               >
                 <Phone className="h-5 w-5" />
