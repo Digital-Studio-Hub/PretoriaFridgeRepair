@@ -1,0 +1,317 @@
+Pretoria Fridge Repairs
+Domain: https://pretoriafridgerepairs.co.za
+Business Name: Pretoria Fridge Repairs
+Contact Person: Albert Mwansa
+Phone: 079 782 2184
+WhatsApp: 069 215 9042
+Location: Pretoria & Surrounding Areas
+
+BUSINESS OVERVIEW
+Pretoria Fridge Repairs offers fast, reliable, and affordable mobile appliance repair services, specializing in:
+
+Fridge Repairs (Domestic & Commercial)
+
+Freezer Repairs
+
+Washing Machine Repairs
+
+Gas Refilling & Leak Detection
+
+Cooling System Diagnostics
+
+Commercial Refrigeration Repairs
+
+On-site and Same-Day Service Availability
+
+The website must communicate professionalism, trust, and high responsiveness, with easy WhatsApp CTA and fast-access contact features.
+
+COLOR THEME — Blue, Sky Blue, White + Green CTAs
+Color Palette
+Color
+
+Hex
+
+Usage
+
+Deep Refrigerator Blue
+
+#003B73
+
+Headings, icons, header background
+
+Sky Blue
+
+#6ECFF5
+
+Highlights, section backgrounds
+
+Ice White
+
+#FFFFFF
+
+Background, content clarity
+
+Eco Green (CTA)
+
+#28C76F
+
+Buttons, WhatsApp, main CTAs
+
+Dark Grey
+
+#1A1A1A
+
+Body text
+
+Design Style
+Clean refrigeration style
+
+Cold blue gradients
+
+Soft UI shadows
+
+White spacious backgrounds
+
+Green CTAs that stand out clearly
+
+Typography
+Headings: Poppins / Montserrat Bold
+
+Body: Inter or Nunito
+
+Buttons: White text on Green (#28C76F)
+
+WEBSITE STRUCTURE
+1 Home Page
+Hero Section:
+
+Image of technician repairing a fridge/washing machine
+
+Headline:
+“Fast & Reliable Appliance Repairs in Pretoria.”
+
+Subheadline:
+“Fridges • Freezers • Washing Machines • Commercial Refrigeration”
+
+CTAs (Green):
+
+Call Now
+
+WhatsApp Us
+
+Sections:
+
+About Albert (Technician)
+
+Services (with icons)
+
+Why Choose Us
+
+Service Areas
+
+Testimonials
+
+Contact strip
+
+2 About Page
+Who Albert is
+
+Years of experience
+
+Professional work ethic
+
+Mobile repair capability
+
+Customer-first service
+
+Blue tone images
+
+3 Services Page
+Create modern service tiles with blue icons:
+
+Fridge Repairs
+Not cooling
+
+Over-freezing
+
+Compressor issues
+
+Domestic & commercial
+
+Freezer Repairs
+Ice buildup
+
+Not freezing
+
+Gas loss diagnostics
+
+Washing Machine Repairs (Newly Added)
+Not spinning
+
+Not draining
+
+Water leakage
+
+Drum not turning
+
+Electrical faults
+
+Front-loader & top-loader units
+
+Gas Refill & Leak Detection
+Cooling System Diagnostics
+Commercial Refrigeration
+Each includes:
+
+Description
+
+Green CTA button: “Request Repair”
+
+4 Gallery Page
+Fridge repairs
+
+Freezer repairs
+
+Washing machine repairs
+
+Commercial units
+
+Clean blue/white frame styling
+
+All images in WebP, lazy-loaded
+
+5 Contact Page
+Phone: 079 782 2184
+
+WhatsApp: 069 215 9042
+
+Email (optional)
+
+Contact form (ZeptoMail)
+
+Green buttons
+
+Pretoria service map
+
+LEKKER NETWORK INTEGRATION
+1. Footer Logo (Center)
+Add Lekker Network logo
+
+Clickable → https://lekker.network/
+
+Text under logo: “Powered by Lekker Network”
+
+2. Verified Badge
+5-column badge grid
+
+Title: Verified Badge
+
+Badge link → https://lekker.network/the-lekker-network-verified
+
+Text: “Lekker Network Verified”
+
+ZEPTO MAIL SETUP
+Create /api/send-mail endpoint.
+
+Requirements:
+Use ZeptoMail API
+
+Environment variables:
+
+ZEPTOMAIL_API_KEY
+
+ZEPTOMAIL_FROM = noreply@pretoriafridgerepairs.co.za
+
+ADMIN_EMAIL = solidwendystec@gmail.com (or preferred)
+
+Validate inputs
+
+Send admin + client email
+
+Return JSON
+
+Test everything
+
+IMAGERY & UI REQUIREMENTS
+Must include photos of:
+
+Fridges
+
+Freezers
+
+Washing machines
+
+Technicians
+
+Tools
+
+Cooling units
+
+Image guidelines:
+
+WebP format
+
+≤150 KB
+
+Lazy-loaded
+
+Clean lighting
+
+Accurate alt text such as:
+“Pretoria Fridge Repairs technician fixing a washing machine in Pretoria.”
+
+SEO & STRUCTURED DATA
+Include schema for:
+
+LocalBusiness
+
+Services (all repair types including washing machines)
+
+Organization
+
+BreadcrumbList
+
+Website + SearchAction
+
+Local SEO:
+"areaServed": ["Pretoria", "Gauteng", "South Africa"]
+
+Meta Title:
+“Pretoria Fridge Repairs | Fridge, Freezer & Washing Machine Repairs”
+
+Meta Description:
+“Fast, affordable fridge, freezer, and washing machine repairs in Pretoria. Same-day mobile service. Call Albert at 079 782 2184 or WhatsApp 069 215 9042.”
+
+PERFORMANCE REQUIREMENTS
+< 1.5s load
+
+Mobile-first
+
+CDN + caching
+
+Compressed images
+
+Core Web Vitals optimized
+
+Accessible forms & labels
+
+ANALYTICS
+Install:
+
+GA4
+
+GTM
+
+Track:
+
+WhatsApp clicks
+
+Call clicks
+
+Form submissions
+
+Include:
+
+Sitemap.xml
+
+Robots.txt
