@@ -37,3 +37,9 @@ author = "agent"
 task = "shell.exec"
 args = "npm run dev"
 waitForPort = 5000
+
+[userenv]
+
+[userenv.shared]
+ZEPTOMAIL_FROM = "noreply@pretoriafridgerepairs.co.za"
+ADMIN_EMAIL = "solidwendystec@gmail.com"
