@@ -123,7 +123,7 @@ const services = [
 export default function Services() {
   const handleWhatsApp = (service: string) => {
     const message = encodeURIComponent(`Hi, I need help with ${service}. Can you assist?`);
-    window.open(`https://wa.me/27692159042?text=${message}`, "_blank");
+    window.open(`https://wa.me/27797822184?text=${message}`, "_blank");
   };
 
   const handleCall = () => {

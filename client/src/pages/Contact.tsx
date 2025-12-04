@@ -98,7 +98,7 @@ export default function Contact() {
   };
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/27692159042?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
+    window.open("https://wa.me/27797822184?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
   };
 
   const handleCall = () => {
@@ -135,7 +135,7 @@ export default function Contact() {
               data-testid="button-contact-whatsapp"
             >
               <SiWhatsapp className="h-5 w-5" />
-              WhatsApp: 069 215 9042
+              WhatsApp: 079 782 2184
             </Button>
           </div>
         </div>
@@ -325,7 +325,7 @@ export default function Contact() {
                     </a>
 
                     <a 
-                      href="https://wa.me/27692159042" 
+                      href="https://wa.me/27797822184" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="flex items-start gap-4 p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors"
@@ -336,7 +336,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="font-semibold text-primary">WhatsApp</p>
-                        <p className="text-muted-foreground">069 215 9042</p>
+                        <p className="text-muted-foreground">079 782 2184</p>
                       </div>
                     </a>
 

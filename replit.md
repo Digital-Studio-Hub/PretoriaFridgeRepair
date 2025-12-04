@@ -8,6 +8,8 @@ This is a static marketing website with a contact form as the primary conversion
 
 The application emphasizes trust, professionalism, and immediate accessibility through prominent call-to-action buttons (phone and WhatsApp) throughout the user experience.
 
+**Primary Contact Number**: 079 782 2184 (used for both Call and WhatsApp)
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.

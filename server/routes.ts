@@ -116,14 +116,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
               <p>For faster assistance, you can also reach us directly:</p>
               <ul>
                 <li><strong>Call:</strong> <a href="tel:+27797822184">079 782 2184</a></li>
-                <li><strong>WhatsApp:</strong> <a href="https://wa.me/27692159042">069 215 9042</a></li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/27797822184">079 782 2184</a></li>
               </ul>
 
               <p>We look forward to helping you!</p>
               <p>Best regards,<br><strong>Albert Mwansa</strong><br>Pretoria Fridge Repairs</p>
               
               <div style="margin-top: 20px; padding: 15px; background: #28C76F; border-radius: 4px; text-align: center;">
-                <a href="https://wa.me/27692159042" style="color: white; text-decoration: none; font-weight: bold;">WhatsApp Us for Faster Response</a>
+                <a href="https://wa.me/27797822184" style="color: white; text-decoration: none; font-weight: bold;">WhatsApp Us for Faster Response</a>
               </div>
             </div>
             <div style="text-align: center; padding: 20px; color: #666; font-size: 12px;">

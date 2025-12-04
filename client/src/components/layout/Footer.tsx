@@ -19,7 +19,7 @@ export function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <a
-                href="https://wa.me/27692159042"
+                href="https://wa.me/27797822184"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 bg-success rounded-full hover:bg-success/90 transition-colors"
@@ -77,7 +77,7 @@ export function Footer() {
                 <Phone className="h-4 w-4 mt-0.5 text-success flex-shrink-0" />
                 <div>
                   <p className="text-white/80">Call: <a href="tel:+27797822184" className="text-white hover:underline">079 782 2184</a></p>
-                  <p className="text-white/80">WhatsApp: <a href="https://wa.me/27692159042" className="text-white hover:underline">069 215 9042</a></p>
+                  <p className="text-white/80">WhatsApp: <a href="https://wa.me/27797822184" className="text-white hover:underline">079 782 2184</a></p>
                 </div>
               </li>
               <li className="flex items-start gap-3 text-sm">

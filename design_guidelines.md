@@ -31,7 +31,7 @@
 - Full-width hero with authentic technician repair image background
 - Headline: "Fast & Reliable Appliance Repairs in Pretoria"
 - Subheadline: "Fridges • Freezers • Washing Machines • Commercial Refrigeration"
-- Two prominent green CTAs side-by-side: "Call Now" (079 782 2184) and "WhatsApp Us" (069 215 9042)
+- Two prominent green CTAs side-by-side: "Call Now" (079 782 2184) and "WhatsApp Us" (079 782 2184)
 - Buttons with blurred backgrounds when overlaying images
 
 **Sections** (in order):
@@ -58,7 +58,7 @@
 
 ### Contact Page
 - 2-column layout: Contact form (left) + Contact info with map (right)
-- Prominent display: Phone (079 782 2184), WhatsApp (069 215 9042)
+- Prominent display: Phone (079 782 2184), WhatsApp (079 782 2184)
 - Green submit button
 - Pretoria service area map integration
 

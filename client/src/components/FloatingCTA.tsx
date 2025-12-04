@@ -3,7 +3,7 @@ import { SiWhatsapp } from "react-icons/si";
 
 export function FloatingCTA() {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/27692159042?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
+    window.open("https://wa.me/27797822184?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
   };
 
   const handleCall = () => {

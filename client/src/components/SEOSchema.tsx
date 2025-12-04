@@ -57,7 +57,7 @@ export function SEOSchema() {
       },
       {
         "@type": "ContactPoint",
-        "telephone": "+27692159042",
+        "telephone": "+27797822184",
         "contactType": "customer service",
         "contactOption": "WhatsApp",
         "areaServed": "ZA"
@@ -68,7 +68,7 @@ export function SEOSchema() {
       "name": "Albert Mwansa"
     },
     "sameAs": [
-      "https://wa.me/27692159042"
+      "https://wa.me/27797822184"
     ]
   };
 

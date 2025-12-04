@@ -111,7 +111,7 @@ const serviceAreas = [
 
 export default function Home() {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/27692159042?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
+    window.open("https://wa.me/27797822184?text=Hi%2C%20I%20need%20appliance%20repair%20services", "_blank");
   };
 
   const handleCall = () => {
@@ -380,7 +380,7 @@ export default function Home() {
                 data-testid="button-cta-whatsapp"
               >
                 <SiWhatsapp className="h-5 w-5" />
-                WhatsApp: 069 215 9042
+                WhatsApp: 079 782 2184
               </Button>
             </div>
           </div>
