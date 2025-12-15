@@ -11,7 +11,6 @@ import {
   Snowflake
 } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
-import washingMachineImage from "@assets/IMG-20251211-WA0010_1765784315431.webp";
 import commercialImage from "@assets/PretoriaFridgeRepairs_2_1765784291561.webp";
 
 const services = [
@@ -54,7 +53,7 @@ const services = [
     icon: WashingMachine,
     title: "Washing Machine Repairs",
     description: "Professional washing machine repairs for front-loaders and top-loaders. We fix all common issues and restore your machine to perfect working order.",
-    image: washingMachineImage,
+    image: null,
     features: [
       "Not spinning",
       "Not draining properly",
