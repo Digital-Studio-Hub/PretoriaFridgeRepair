@@ -4,60 +4,60 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
 
-import image1 from "@assets/IMG-20250827-WA0001~2_1764087863392.jpg";
-import image2 from "@assets/IMG-20250827-WA0009~2_1764087863392.jpg";
-import image3 from "@assets/IMG-20250827-WA0033~2_1764087863393.jpg";
-import image4 from "@assets/IMG-20250821-WA0005~2_1764087863391.jpg";
-import image5 from "@assets/IMG-20250821-WA0010~2_1764087863391.jpg";
-import image6 from "@assets/IMG-20250625-WA0033~2_1764087863391.jpg";
-import image7 from "@assets/IMG-20250611-WA0005_1764087863390.jpeg";
-import image8 from "@assets/IMG-20251115-WA0001_1764087863393.jpg";
-import image9 from "@assets/IMG_20251117_144337_877_1764087863390.jpg";
+import image1 from "@assets/PretoriaFridgeRepairs_1_1765784297565.webp";
+import image2 from "@assets/PretoriaFridgeRepairs_2_1765784291561.webp";
+import image3 from "@assets/IMG-20251211-WA0013_1765784303958.webp";
+import image4 from "@assets/IMG-20251211-WA0012_1765784310988.webp";
+import image5 from "@assets/IMG-20251211-WA0010_1765784315431.webp";
+import image6 from "@assets/IMG-20251211-WA0009_1765784327390.webp";
+import image7 from "@assets/IMG-20251211-WA0007_1765784327391.webp";
+import image8 from "@assets/IMG-20251211-WA0008_1765784327392.webp";
+import image9 from "@assets/IMG-20251211-WA0011_1765784327392.webp";
 
 const galleryImages = [
   {
     src: image1,
-    alt: "Pretoria Fridge Repairs technician repairing a fridge in a modern kitchen",
-    category: "Fridge Repairs"
+    alt: "Pretoria Fridge Repairs technician servicing indoor air conditioning unit",
+    category: "Commercial Refrigeration"
   },
   {
     src: image2,
-    alt: "Professional technician with toolbox inspecting a freezer unit",
-    category: "Freezer Repairs"
+    alt: "Professional technician with tools next to outdoor AC unit installation",
+    category: "Commercial Refrigeration"
   },
   {
     src: image3,
-    alt: "Commercial refrigerator repair service in Pretoria",
+    alt: "Albert working on ceiling-mounted air conditioning filter in Pretoria home",
     category: "Commercial Refrigeration"
   },
   {
     src: image4,
-    alt: "Technician diagnosing cooling issues on a domestic fridge",
-    category: "Fridge Repairs"
+    alt: "Technician inspecting and cleaning air conditioning unit filter",
+    category: "Commercial Refrigeration"
   },
   {
     src: image5,
-    alt: "Fridge, aircon and washing machine repair services display",
-    category: "All Services"
+    alt: "Professional appliance technician checking indoor AC cooling system",
+    category: "Commercial Refrigeration"
   },
   {
     src: image6,
-    alt: "Professional appliance repair technician working on cooling unit",
+    alt: "Pretoria Fridge Repairs - expert maintenance of wall-mounted AC unit",
     category: "Commercial Refrigeration"
   },
   {
     src: image7,
-    alt: "Washing machine repair service - front loader and dryer units",
-    category: "Washing Machine Repairs"
+    alt: "Technician performing routine service on air conditioning system",
+    category: "Commercial Refrigeration"
   },
   {
     src: image8,
-    alt: "Completed fridge repair with water dispenser in Pretoria home",
-    category: "Fridge Repairs"
+    alt: "Albert testing air conditioning unit with remote control",
+    category: "Commercial Refrigeration"
   },
   {
     src: image9,
-    alt: "Air conditioning unit installation and repair services",
+    alt: "Professional AC filter cleaning and maintenance service in Pretoria",
     category: "Commercial Refrigeration"
   }
 ];

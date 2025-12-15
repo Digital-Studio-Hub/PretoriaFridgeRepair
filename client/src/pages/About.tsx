@@ -12,8 +12,8 @@ import {
   Zap
 } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
-import technicianImage from "@assets/IMG-20250827-WA0009~2_1764087863392.jpg";
-import workImage from "@assets/IMG-20250625-WA0033~2_1764087863391.jpg";
+import technicianImage from "@assets/PretoriaFridgeRepairs_1_1765784297565.webp";
+import workImage from "@assets/IMG-20251211-WA0009_1765784327390.webp";
 
 const values = [
   {
