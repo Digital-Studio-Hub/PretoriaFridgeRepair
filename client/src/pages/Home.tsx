@@ -17,7 +17,7 @@ import {
   Award
 } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
-import heroImage from "@assets/PretoriaFridgeRepairs_1_1765784297565.webp";
+import heroImage from "@assets/engineers-inspect-the-cooling-system-of-a-large-bu-2025-10-07-_1765823313990.jpg";
 import technicianImage from "@assets/PretoriaFridgeRepairs_2_1765784291561.webp";
 
 const services = [
