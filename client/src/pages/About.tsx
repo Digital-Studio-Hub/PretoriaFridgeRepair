@@ -208,7 +208,7 @@ export default function About() {
               <img 
                 src={workImage} 
                 alt="Pretoria Fridge Repairs technician at work"
-                className="w-full rounded-lg shadow-xl object-cover aspect-[4/3]"
+                className="w-full rounded-lg shadow-xl object-cover aspect-[3/4]"
               />
             </div>
           </div>
