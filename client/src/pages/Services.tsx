@@ -11,7 +11,6 @@ import {
   Snowflake
 } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
-import commercialImage from "@assets/PretoriaFridgeRepairs_2_1765784291561.webp";
 
 const services = [
   {
@@ -104,7 +103,7 @@ const services = [
     icon: Building2,
     title: "Commercial Refrigeration",
     description: "Specialized repair services for commercial refrigeration units. Keep your business running with minimal downtime.",
-    image: commercialImage,
+    image: null,
     features: [
       "Display fridges",
       "Cold room repairs",
