@@ -137,7 +137,7 @@ export default function Home() {
               Fast & Reliable Appliance Repairs in Pretoria
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 mb-8 font-medium" style={{ animationDelay: "0.1s" }}>
-              Fridges &bull; Freezers &bull; Washing Machines &bull; Commercial Refrigeration
+              Fridges &bull; Freezers &bull; Washing Machines &bull; Air Conditioning &bull; Cold Rooms
             </p>
             <p className="text-lg text-white/80 mb-8" style={{ animationDelay: "0.2s" }}>
               Professional same-day mobile repair service. We come to you!
