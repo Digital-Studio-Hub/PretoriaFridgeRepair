@@ -11,7 +11,6 @@ import {
   Snowflake
 } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
-import fridgeRepairImage from "@assets/IMG-20250821-WA0005~2_1764087863391.jpg";
 import washingMachineImage from "@assets/IMG-20251211-WA0010_1765784315431.webp";
 import commercialImage from "@assets/PretoriaFridgeRepairs_2_1765784291561.webp";
 
@@ -21,7 +20,7 @@ const services = [
     icon: ThermometerSnowflake,
     title: "Fridge Repairs",
     description: "Complete domestic and commercial fridge repair services. We diagnose and fix all types of refrigerator problems quickly and efficiently.",
-    image: fridgeRepairImage,
+    image: null,
     features: [
       "Not cooling or poor cooling",
       "Over-freezing issues",
