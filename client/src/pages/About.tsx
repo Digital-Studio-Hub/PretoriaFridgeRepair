@@ -91,7 +91,7 @@ export default function About() {
               <img 
                 src={technicianImage} 
                 alt="Albert Mwansa - Pretoria Fridge Repairs owner and technician"
-                className="w-full rounded-lg shadow-xl object-cover aspect-[4/3]"
+                className="w-full rounded-lg shadow-xl object-cover aspect-[3/4]"
               />
             </div>
             <div>
