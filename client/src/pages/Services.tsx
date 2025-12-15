@@ -11,7 +11,7 @@ import {
   Snowflake
 } from "lucide-react";
 import { SiWhatsapp } from "react-icons/si";
-import fridgeRepairImage from "@assets/IMG-20251211-WA0012_1765784310988.webp";
+import fridgeRepairImage from "@assets/IMG-20250821-WA0005~2_1764087863391.jpg";
 import washingMachineImage from "@assets/IMG-20251211-WA0010_1765784315431.webp";
 import commercialImage from "@assets/PretoriaFridgeRepairs_2_1765784291561.webp";
 
