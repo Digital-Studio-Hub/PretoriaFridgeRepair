@@ -4,13 +4,30 @@ import { type Server } from "node:http";
 
 import { nanoid } from "nanoid";
 import { type Express } from "express";
-import { createServer as createViteServer, createLogger } from "vite";
-
-import viteConfig from "../vite.config";
 import runApp from "./app";
 
 export async function setupVite(app: Express, server: Server) {
+  const { createServer: createViteServer, createLogger } = await import("vite");
   const viteLogger = createLogger();
+
+  // Keep config local so production builds never import vite.config.ts.
+  const localViteConfig = {
+    resolve: {
+      alias: {
+        "@": path.resolve(import.meta.dirname, "..", "client", "src"),
+        "@shared": path.resolve(import.meta.dirname, "..", "shared"),
+        "@assets": path.resolve(import.meta.dirname, "..", "attached_assets"),
+      },
+    },
+    root: path.resolve(import.meta.dirname, "..", "client"),
+    server: {
+      fs: {
+        strict: true,
+        deny: ["**/.*"],
+      },
+    },
+  };
+
   const serverOptions = {
     middlewareMode: true,
     hmr: { server },
@@ -18,7 +35,7 @@ export async function setupVite(app: Express, server: Server) {
   };
 
   const vite = await createViteServer({
-    ...viteConfig,
+    ...localViteConfig,
     configFile: false,
     customLogger: {
       ...viteLogger,
